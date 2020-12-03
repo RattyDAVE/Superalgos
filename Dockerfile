@@ -4,7 +4,7 @@ RUN cd /opt && \
 
 WORKDIR /opt/Superalgos
 
-CMD ["node", "run", "noBrowser"]
+CMD ["node", "run", "noBrowser", "minMemo"]
     
 #Http Interface
 EXPOSE 34248
